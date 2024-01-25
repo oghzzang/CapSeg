@@ -14,7 +14,7 @@ load.coverage.data <- function(data.row) {
                                 header=TRUE,
                                 type="double",
                                 row.names=1,
-                                backing.file=paste(data.row[2])
+                                backing.file=paste(data.row[2]))
 }
 
 # now cycle through each, building up the master matrix
